@@ -1,0 +1,42 @@
+.container {
+  @apply relative flex justify-around items-center top-48 w-screen;
+}
+.parent {
+  @apply relative w-2/12;
+}
+.logo_p {
+  @apply absolute z-10 left-0 right-0 p-3 w-fit m-auto rounded-b-fcurve bg-purple;
+}
+.logo {
+  @apply bg-custom-gradient2 rounded-full p-7  backdrop-blur-md box-border w-fit m-auto border-slate-800 border;
+  @layer bg-custom;
+}
+.info_div {
+  @apply relative top-20 pt-14 bg-custom-gradient box-border backdrop-blur-2xl backdrop-filter flex flex-col justify-between items-center px-3 rounded-t-curve;
+}
+.title {
+  @apply text-tcol opacity-90 text-center leading-8 text-sm font-semibold not-italic font-sans mb-3;
+  @layer text-tcol;
+}
+.price_div {
+  @apply flex justify-center gap-2 items-center box-border bg-custom4 rounded-3xl w-full py-2;
+  @layer rounded-17;
+}
+.price {
+  @apply opacity-90 text-custom5 text-center text-base font-semibold;
+  @layer leading-31;
+}
+.green {
+  @apply opacity-90 text-custom6 uppercase  text-xs font-semibold;
+  @layer leading-31;
+}
+.red {
+  @apply opacity-90 text-custom7 uppercase  text-xs font-semibold;
+  @layer leading-31;
+}
+.pairs {
+  @apply flex justify-between items-center py-2 px-4 w-8/12 rounded-3xl bg-custom4;
+}
+.logos {
+  @apply w-8 h-8;
+}
