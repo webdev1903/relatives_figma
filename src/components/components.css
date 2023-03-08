@@ -1,5 +1,5 @@
 .container {
-  @apply relative flex justify-around items-center top-48 w-screen;
+  @apply relative flex justify-around items-center top-48 w-screen flex-wrap;
 }
 .parent {
   @apply relative w-2/12;
