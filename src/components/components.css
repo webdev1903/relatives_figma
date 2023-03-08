@@ -1,8 +1,8 @@
 .container {
-  @apply relative flex justify-around items-center top-48 w-screen flex-wrap;
+  @apply relative flex justify-around items-center top-48 w-screen flex-wrap gap-y-4 bg-purple;
 }
 .parent {
-  @apply relative w-2/12;
+  @apply relative w-72 h-[442px];
 }
 .logo_p {
   @apply absolute z-10 left-0 right-0 p-3 w-fit m-auto rounded-b-fcurve bg-purple;
@@ -12,7 +12,7 @@
   @layer bg-custom;
 }
 .info_div {
-  @apply relative top-20 pt-14 bg-custom-gradient box-border backdrop-blur-2xl backdrop-filter flex flex-col justify-between items-center px-3 rounded-t-curve;
+  @apply relative top-20 pt-14 bg-custom-gradient box-border backdrop-blur-2xl backdrop-filter flex flex-col justify-between items-center px-3 rounded-curve;
 }
 .title {
   @apply text-tcol opacity-90 text-center leading-8 text-sm font-semibold not-italic font-sans mb-3;

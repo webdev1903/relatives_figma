@@ -8,8 +8,8 @@ interface childProps {
 export default function Display({ data }: childProps) {
   return (
     <div className="container">
-      {data.map((e) => (
-        <div className="parent">
+      {data.map((e, i) => (
+        <div className="parent" key={i}>
           <div className="logo_p">
             <div className="logo">
               <img src={e.logo} />
