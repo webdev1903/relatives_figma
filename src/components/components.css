@@ -2,17 +2,17 @@
   @apply relative flex justify-around items-center top-48 w-screen flex-wrap gap-y-4 bg-purple;
 }
 .parent {
-  @apply relative w-72 h-[442px];
+  @apply relative w-64 h-[442px];
 }
 .logo_p {
   @apply absolute z-10 left-0 right-0 p-3 w-fit m-auto rounded-b-fcurve bg-purple;
 }
 .logo {
-  @apply bg-custom-gradient2 rounded-full p-7  backdrop-blur-md box-border w-fit m-auto border-slate-800 border;
+  @apply bg-custom-gradient2 rounded-full p-5  backdrop-blur-md box-border w-fit m-auto border-slate-800 border;
   @layer bg-custom;
 }
 .info_div {
-  @apply relative top-20 pt-14 bg-custom-gradient box-border backdrop-blur-2xl backdrop-filter flex flex-col justify-between items-center px-3 rounded-curve;
+  @apply relative top-[68px] pt-14 bg-custom-gradient box-border backdrop-blur-2xl backdrop-filter flex flex-col justify-between items-center px-3 rounded-xl;
 }
 .title {
   @apply text-tcol opacity-90 text-center leading-8 text-sm font-semibold not-italic font-sans mb-3;
